@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 
 const Home = () => {
   return (
-    <div className="bg-[url(/assets/bg-home.jpg)] bg-cover bg-fixed bg-center bg-no-repeat bg-gray-600 bg-blend-darken min-h-screen flex flex-col">
+    <div className="bg-[url(/assets/bg.jpg)] bg-cover bg-fixed bg-center bg-no-repeat bg-gray-600 bg-blend-darken min-h-screen flex flex-col">
       <Header />
 
       <main className="text-white grow flex flex-col  justify-center items-center">

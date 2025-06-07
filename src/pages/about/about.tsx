@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 
 const About = () => {
   return (
-    <div className="bg-[url(/assets/bg-home.jpg)] bg-cover bg-fixed bg-center bg-no-repeat bg-gray-600 bg-blend-darken min-h-screen flex flex-col">
+    <div className="bg-[url(/assets/bg.jpg)] bg-cover bg-fixed bg-center bg-no-repeat bg-gray-600 bg-blend-darken min-h-screen flex flex-col">
       <Header />
       <main className="grow text-white flex items-center p-3 gap-5">
         <section className="w-1/2 text-xl">
