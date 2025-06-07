@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="bg-[url(/assets/bg-home.jpg)] bg-cover bg-fixed bg-center bg-no-repeat bg-gray-600 bg-blend-darken min-h-screen flex flex-col">
       <Header />
-      <main className="grow bg-gradient-to-b from-slate-900 to-slate-800 text-white flex items-center p-3 gap-5">
+      <main className="grow text-white flex items-center p-3 gap-5">
         <section className="w-1/2 text-xl">
           <h1 className="text-7xl text-slate-200 mb-4">Sobre o EFPUB</h1>
           <p className="mb-4">
@@ -52,8 +52,8 @@ const About = () => {
         </section>
       </main>
 
-      <footer className="bg-slate-950 p-2">
-        <p className="text-sm text-slate-300 text-center">
+      <footer className="bg-slate-950 ">
+        <p className="text-sm text-slate-300 text-center p-1">
           Desenvolvido como parte de uma atividade extensionista do Centro Universitário Internacional
           UNINTER.
         </p>
